@@ -21,7 +21,6 @@ const TodoInput = ({ onInputChange, newTodo, addTodo }: TodoInputProps) => {
         placeholder="Add Task..."
         onChange={(e) => {
           onInputChange(e.target.value);
-          console.log(newTodo);
         }}
       />
       <button className="bg-[#333333] text-white p-2 rounded-2xl" type="submit">
